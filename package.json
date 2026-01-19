@@ -1,0 +1,20 @@
+{
+  "name": "demo-deck",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "pdf": "node pdf.js",
+    "clean": "rm -rf dist deck.pdf",
+    "ci": "npm run clean && npm run build && npm run pdf"
+  },
+  "dependencies": {
+    "reveal.js": "^5.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "puppeteer": "^24.0.0"
+  }
+}

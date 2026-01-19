@@ -1,0 +1,30 @@
+.reveal h1, .reveal h2, .reveal h3 { text-transform: none; }
+.reveal code { font-size: 0.9em; }
+/* Two-column slide layout */
+.cols {
+  display: grid;
+  grid-template-columns: 1.05fr 1.2fr;
+  gap: 1.2rem;
+  align-items: start;
+}
+
+.col-left {
+  font-size: 0.95em;
+}
+
+.col-right pre {
+  margin: 0;
+}
+
+/* Make code block feel like a panel */
+.codepanel pre code {
+  max-height: 520px;         /* avoid running off slide */
+  overflow: auto;
+  display: block;
+  padding: 0.8rem;
+  border-radius: 12px;
+}
+
+/* Optional: tighten headings */
+.reveal h2 { margin-bottom: 0.6rem; }
+.reveal ul { margin: 0.4rem 0 0 1.2rem; }
