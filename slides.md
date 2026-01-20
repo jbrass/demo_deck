@@ -1,4 +1,4 @@
-## What is Package.json
+## What is `package.json`?
 
 <div class="cols">
   <div class="col-left">
