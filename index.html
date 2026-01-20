@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>package.json in 3 minutes</title>
 
-    <link rel="stylesheet" href="/node_modules/reveal.js/dist/reveal.css" />
+    <link rel="stylesheet" href="./node_modules/reveal.js/dist/reveal.css" />
 
 
-    <link rel="stylesheet" href="/node_modules/reveal.js/dist/theme/sky.css" />
-    <link rel="stylesheet" href="/node_modules/reveal.js/plugin/highlight/monokai.css" />
-
-    <link rel="stylesheet" href="/deck.css" />
+    <link rel="stylesheet" href="./node_modules/reveal.js/dist/theme/sky.css" />
+    <link rel="stylesheet" href="./node_modules/reveal.js/plugin/highlight/monokai.css" />
+    <link rel="stylesheet" href="./deck.css" />
   </head>
 
   <body>
     <div class="reveal">
       <div class="slides">
         <section
-          data-markdown="/slides.md"
+          data-markdown="./slides.md"
           data-separator="^\r?\n---\r?\n$"
           data-separator-vertical="^\r?\n----\r?\n$"
           data-separator-notes="^Note:"
@@ -27,10 +26,10 @@
     </div>
 
     <script type="module">
-      import Reveal from "/node_modules/reveal.js/dist/reveal.esm.js";
-      import Markdown from "/node_modules/reveal.js/plugin/markdown/markdown.esm.js";
-      import Highlight from "/node_modules/reveal.js/plugin/highlight/highlight.esm.js";
-      import Notes from "/node_modules/reveal.js/plugin/notes/notes.esm.js";
+      import Reveal from "./node_modules/reveal.js/dist/reveal.esm.js";
+      import Markdown from "./node_modules/reveal.js/plugin/markdown/markdown.esm.js";
+      import Highlight from "./node_modules/reveal.js/plugin/highlight/highlight.esm.js";
+      import Notes from "./node_modules/reveal.js/plugin/notes/notes.esm.js";
 
       Reveal.initialize({
         hash: true,
